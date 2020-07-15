@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_gravity="center"
+    tools:context=".Length">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="277dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/enter_length_value"
+        app:srcCompat="@drawable/caliper" />
+
+    <EditText
+        android:id="@+id/etView"
+        android:layout_width="310dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="@string/enter_length_value"
+        android:ems="10"
+        android:hint="@string/enter_length_in_foot"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:id="@+id/radio1"
+        android:layout_width="385dp"
+        android:layout_height="162dp"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="223dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/meter_m"
+            android:onClick="onRadioButtonClicked"/>
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="227dp"
+            android:layout_height="49dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/centmeter_cm"
+            android:onClick="onRadioButtonClicked"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="236dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#E2617ED6"
+        android:text="@string/convert" />
+
+</LinearLayout>

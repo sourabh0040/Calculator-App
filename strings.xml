@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="enter_value">Enter value</string>
+    <string name="enter_value2">Enter Value</string>
+    <string name="plus">+</string>
+    <string name="sub">_</string>
+    <string name="multi">*</string>
+    <string name="Divide">/</string>
+    <string name="welcome">Welcome</string>
+    <string name="currency_conversion">Currency Conversion</string>
+    <string name="exit">Exit</string>
+    <string name="search">Search</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="dollar">DOLLAR</string>
+    <string name="covnvert">Covnvert</string>
+    <string name="inr">INR</string>
+    <string name="convert">Convert</string>
+    <string name="Currency">Currency Converter</string>
+    <string name="enter_length_value">Enter length Value</string>
+    <string name="meter_m">meter(m)</string>
+    <string name="centmeter_cm">Centmeter(cm)</string>
+    <string name="enter_length_in_foot">Enter length in foot</string>
+
+</resources>
